@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="search.css">
+    <link rel="shortcut icon" href="./src/icon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+    <title>Поиск</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="./index.html"> <img src="./src/Logo.svg" alt="logo" draggable="false"> </a>
+            <div class="header__links">
+                <a href="./index.html">Главная</a>
+                <a href="./users.html">Пользователи</a>
+                <a href="./search.html" class="links__main">Поиск</a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="search">
+                <div class="search__icons">
+                    <div class="left-side">
+                        <img src="./src/cancel.svg" alt="cancel" class="cancelIcon">
+                        <input type="text" value="Пет" class="search__text">
+                    </div>
+                    <img src="./src/search.svg" alt="search" class="searchIcon">
+                </div>
+                <div class="search__results">
+                    <div class="results__lists">
+                        <p>Петр Иванов</p>
+                        <a href="#">some.site.ru</a>
+                    </div>
+                    <div class="results__lists">
+                        <p>Иван Петров</p>
+                        <a href="#">some.site.ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
